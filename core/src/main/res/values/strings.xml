@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Authorization</string>
+    <string name="phone">Tелефон</string>
+    <string name="text_code_country">Проверьте код страны и введите свой номер телефона.</string>
+    <string name="country_russia">Россия</string>
+    <string name="number_use_login">Номер телефона будет использоваться как логин</string>
+    <string name="continue_">Продолжить</string>
+    <string name="create_password">Придумайте пароль</string>
+    <string name="enter_code">Введите код-пароль для входа в приложение</string>
+</resources>

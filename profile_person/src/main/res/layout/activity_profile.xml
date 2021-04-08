@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    tools:context=".presentation.fragment.ProfileFragment">
+
+    <include layout="@layout/item_profile_head" />
+
+    <TextView
+        android:id="@+id/history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/ic_rectangle_2"
+        android:drawableLeft="@drawable/ic_history"
+        android:drawablePadding="18dp"
+        android:padding="15dp"
+        android:text="История заказов"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/support"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/ic_rectangle_2"
+        android:drawableLeft="@drawable/ic_mind"
+        android:drawablePadding="18dp"
+        android:padding="15dp"
+        android:text="Служба поддержки"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/ic_rectangle_2"
+        android:drawableLeft="@drawable/ic_exit"
+        android:drawablePadding="18dp"
+        android:padding="15dp"
+        android:text="Выйти"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

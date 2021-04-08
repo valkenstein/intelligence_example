@@ -1,0 +1,11 @@
+include ':services'
+include ':notification'
+include ':mainn'
+include ':promotion_card'
+include ':cart_news'
+include ':profile_person'
+include ':home'
+include ':core'
+include ':authorization'
+include ':app'
+rootProject.name = "Iintelligence"
